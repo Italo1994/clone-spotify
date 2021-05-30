@@ -6,15 +6,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
 <body>
 
 	<div class="main-container">
 
 		<header id="header">
-			<div class="logo">
-				<img src="img/logo.png">
-			</div>
+			<a href="index.html" class="logo">
+				<img src="img/logo-spotify.jpg" width="40%" height="80%">
+				<span class="texto-logo">Spotify</span>
+			</a>
 
 			<div class="main-menu">
 				
@@ -28,51 +35,115 @@
 			</div>
 		</header>
 
-		<div id="capa">
-			<img src="img/capa.jpg" alt="Foto de Sebastian Ervi no Pexels">
-			<a href="#">Baixe o Spotify Free</a>
-		</div>
-
-		<footer id="footer">
-			<div class="top-content">
-
-				<div class="collumn-1">
-					SPOTIFY
-				</div>
-				<div class="collumn-2">
-					<a href="#">
-						
-					</a>
-				</div>
-				<div class="collumn-3">
-					<a href="#">
-						
-					</a>
-				</div>
-				<div class="collumn-4">
-					<a href="#">
-						
-					</a>
-				</div>
-				<div class="collumn-5">
-					<a href="#">
-						
-					</a>
-				</div>
-
+		<section id="capa">
+			<div class="area-esquerda">
+				<h5 class="titulo-5">SPOTIFY PREMIUM</h5>
+				<h1 class="titulo-1">Curta 3 meses de Premium grátis</h1>
+				<p class="paragrafo">Curta músicas sem anúncios, no modo offline e muito mais. Cancele quando quiser.</p>
+				<a href="#" class="botao">GANHE 3 MESES GRÁTIS</a>
 			</div>
+			<div class="area-direita">
+				<img src="img/capa.jpg" alt="show de capa" width="70%" height="70%" class="rounded-circle">
+			</div>
+		</section>
 
-			<div class="bottom-content">
+		<section id="area-download">
+			<div class="area-esquerda">
+				<h5 class="titulo-5">SPOTIFY FREE</h5>
+				<h1 class="titulo-1">Escutar muda tudo</h1>
+				<p class="paragrafo">Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</p>
+				<a href="#" class="botao botao-verde">BAIXE O SPOTIFY FREE</a>
+			</div>
+		</section>
+
+		<!-- RODAPÉ COM DISPLAY GRID -->
+		<footer id="footer">
+			<section class="top-content">
+
+				<div class="coluna-footer">
+					<a href="#" class="logo-footer">
+						<img src="img/logo-spotify.jpg" width="40%" height="80%">
+						<span class="texto-logo">Spotify</span>
+					</a>
+				</div>
+				<div class="coluna-footer">
+					<span class="rotulo">EMPRESA</span>
+					<a href="#">
+						Sobre
+					</a>
+					<a href="#">
+						Empregos
+					</a>
+					<a href="#">
+						For the Record
+					</a>
+				</div>
+				<div class="coluna-footer">
+					<span class="rotulo">COMUNIDADES</span>
+					<a href="#">
+						Para Artistas
+					</a>
+					<a href="#">
+						Desenvolvedores
+					</a>
+					<a href="#">
+						Publicidade
+					</a>
+					<a href="#">
+						Investidores
+					</a>
+					<a href="#">
+						Fornecedores
+					</a>
+				</div>
+				<div class="coluna-footer">
+					<span class="rotulo">LINKS ÚTEIS</span>
+					<a href="#">
+						Suporte
+					</a>
+					<a href="#">
+						Player da Web
+					</a>
+					<a href="#">
+						Aplicativo móvel grátis
+					</a>
+				</div>
+				<div class="coluna-footer">
+					<div class="redes-sociais">
+						<a href="#">
+							Instagram
+						</a>
+						<a href="#">
+							Facebook
+						</a>
+						<a href="#">
+							Twitter
+						</a>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="bottom-content">
 				<div class="left-content">
 					
 				</div>
 				<div class="right-content">
 					
 				</div>
-			</div>
+			</section>
 		</footer>
 
 	</div>
 
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
